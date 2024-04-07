@@ -1,0 +1,46 @@
+@import "navigation.css";
+@import "grid.css";
+/* Unique stuff down here */
+
+.hero {
+    background-color: var(--heroBackground);
+    color: var(--heroText);
+    padding: 5%;
+}
+
+.description {
+    padding: 5% 2%;
+    background-color: white;
+}
+
+.description div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.comunication {
+    background-color: var(--lightPink);
+    color: var(--lightBlack);
+    padding: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.comunication:hover {
+    background-color: var(--purple);
+    color: var(--lightBlack);
+    padding: 10px;
+}
+
+.comunication div {
+    display: flex;
+    justify-content: center;
+}
+
+.inverseCol .grid-item {
+    background-color: var(--purple);
+}
+
+.inverseCol .grid-item:hover {
+    background-color: var(--lightPink);
+}

@@ -1,0 +1,36 @@
+@import "navigation.css";
+.grid {
+    background-color: var(--white);
+    padding: 18px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px;
+    padding-top: 5px;
+}
+
+.grid-item{
+    background-color: var(--lightPink);
+    padding: 18px;
+    text-align: center;
+}
+
+.grid-item:hover{
+    background-color: var(--purple);
+    padding: 18px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 860px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

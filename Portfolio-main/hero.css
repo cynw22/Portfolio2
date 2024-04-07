@@ -1,0 +1,9 @@
+@import "navigation.css";
+
+.heroSec {
+    background-color: var(--heroBackground);
+    color: var(--heroText);
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}

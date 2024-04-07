@@ -1,0 +1,12 @@
+@import "hero.css";
+@import "grid.css";
+
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container {
+    padding-top: 10px;
+}
+
